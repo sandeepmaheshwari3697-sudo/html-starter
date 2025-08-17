@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Something is Blooming...</title>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Quicksand', sans-serif;
+      background: linear-gradient(135deg, #fdf2f8, #e0f7fa);
+      color: #5b4562;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      min-height: 100vh;
+      padding: 2rem;
+    }
+
+    h1 {
+      font-size: 2.8rem;
+      margin-bottom: 1.2rem;
+      background: linear-gradient(to right, #ffb7d5, #a5defd);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: fadeIn 2s ease-out;
+    }
+
+    .quote {
+      font-size: 1.2rem;
+      max-width: 600px;
+      line-height: 1.7;
+      margin-bottom: 2rem;
+      opacity: 0;
+      animation: fadeIn 3s ease-in forwards;
+      animation-delay: 1.5s;
+    }
+
+    .launch-box {
+      font-size: 1rem;
+      background: #fff;
+      border-radius: 1.2rem;
+      padding: 0.6rem 1.5rem;
+      border: 2px dashed #ffa4d4;
+      color: #b65784;
+      margin-top: 2rem;
+      opacity: 0;
+      animation: fadeIn 3s ease-in forwards;
+      animation-delay: 3.5s;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    footer {
+      margin-top: 3rem;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <h1>Something is Blooming...</h1>
+  <div class="quote">
+    “A quiet seed, hidden in the noise, <br> waiting to become something beautiful.”
+  </div>
+  <div class="quote">
+    “Some surprises don’t shout... they arrive like soft music under the stars.”  
+  </div>
+  <div class="launch-box">
+    🌸 Opening gently during Durga Puja 2025
+  </div>
+  <footer>&copy; 2025 — Just wait and see 🌙</footer>
+</body>
+</html>
